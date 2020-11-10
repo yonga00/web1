@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <script type="text/JavaScript">
+             <!--
+                function AutoRefresh( t ) {
+                   setTimeout("location.reload(true);", t);
+                }
+             //-->
+    </script>
+</head>
+<body onload = "JavaScript:AutoRefresh(60000);">
+<script>
+// 랜덤하게 추출
+var rst =Math.floor( Math.random() * 100) + 100;
+var rst2 = Math.floor(Math.random() * 100) + 200;
+document.write('<p><img src = https://image.yes24.com/YES24ViewerDatas/Z20_LT/A199/B1988/1987190_L/35a9a6yotnrdvikc.jpg?set-im=true&im=Resize=(' + (rst+10) + ',' + (rst2+10) + ')&imquality=85></p>');
+document.write('<p><img src = https://image.yes24.com/YES24ViewerDatas/Z20_LT/A199/B1988/1987190_L/6mor0t8elr7w0c8h.jpg?set-im=true&im=Resize=(' + (rst+20) + ',' + (rst2+20) + ')&imquality=85></p>');
+document.write('<p><img src = https://image.yes24.com/YES24ViewerDatas/Z20_LT/A199/B1988/1987190_L/cdp88ryugis1z9bw.jpg?set-im=true&im=Resize=(' + (rst+30) + ',' + (rst2+30) + ')&imquality=85></p>');
+document.write('<p><img src = https://image.yes24.com/YES24ViewerDatas/Z20_LT/A199/B1988/1987190_L/35a9a6yotnrdvikc.jpg?set-im=true&impolicy=ValueofResize&width='+(rst+40)+'&height='+(rst2+40)+'&imquality=85></p>');
+document.write('<p><img src = https://image.yes24.com/YES24ViewerDatas/Z20_LT/A199/B1988/1987190_L/6mor0t8elr7w0c8h.jpg?set-im=true&impolicy=ValueofResize&width=' + (rst+50) + '&height=' + (rst2+50) + '&imquality=85></p>');
+document.write('<p><img src = https://image.yes24.com/YES24ViewerDatas/Z20_LT/A199/B1988/1987190_L/cdp88ryugis1z9bw.jpg?set-im=true&impolicy=ValueofResize&width=' + (rst+60) + '&height=' + (rst2+60) + '&imquality=85></p>');
+</script>
+
+</body>
+</html>
